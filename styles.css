@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Minimalistic font for body */
+    background-color: #212529; /* Comfortable background color */
+    color: #c2c2c2; /* Darker text for better readability */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px; /* Limit the width of the content */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif; /* Updated font for title */
+}
+
+p {
+    font-size: 1.2em;
+    color: #c2c2c2; /* Darker text for better readability */
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+}
+
+.button {
+    display: inline-block; /* Ensure buttons appear correctly */
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 25px; /* Rounded buttons */
+    text-decoration: none;
+    color: cyan; /* Text color */
+    border: 2px solid cyan; /* Cyan border */
+    background: transparent; /* Empty middle */
+    transition: background 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background: rgba(0, 255, 255, 0.1); /* Light cyan background on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
